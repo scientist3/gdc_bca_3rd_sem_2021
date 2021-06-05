@@ -1,0 +1,34 @@
+/* .small_folder_icon{
+  width: 40px;
+  height: 40px;
+}
+
+.display_flex{
+  display: flex;
+}
+
+.display_contents{
+  display: contents;
+}
+
+.display_contents > p {
+  line-height: 0px;
+} */
+
+
+.pl-5{
+  padding-left: 5px;
+}
+
+.pl-10{
+  padding-left: 10px;
+}
+.pl-20{
+  padding-left: 20px;
+}
+.pl-30{
+  padding-left: 30px;
+}
+.pl-40{
+  padding-left: 40px;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+  <!-- Bootstrap Css File -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="alert alert-primary text-center h2">Header- External Css, Bootstrap, JS</div>
+    <div id="maincontent">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Library</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Data</li>
+        </ol>
+      </nav>
+
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 " src="https://picsum.photos/id/80/600/300" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 " src="https://picsum.photos/id/90/600/300" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 " src="https://picsum.photos/id/60/600/300" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <div class="jumbotron mt-2">
+        <h1 class="display-4">Hello, Students!</h1>
+        <hr class="my-4">
+        <button type="button" class="btn btn-primary">Primary</button>
+        <p><a href="https://www.w3schools.com/js/js_htmldom.asp">DOM</a> = Docuent Object Model = A tree that is
+          created
+          by the browser! after rendering the web page. Browser creates a special object = document</p>
+        <p>When a web page is loaded, the browser creates a Document Object Model of the page.</p>
+        <img class="rounded center-img" src="./images/pic_htmltree.gif" alt="">
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="https://getbootstrap.com/docs/4.0/components/jumbotron/"
+            role="button">Learn more about Bootstrap</a>
+        </p>
+      </div>
+      <div class="display-flex">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="https://picsum.photos/id/280/300/200" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="https://picsum.photos/id/290/300/200" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="box">Foooter</div>
+    </div>
+
+    <!-- Bootstrap JS Files -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"></script>
+
+    <!-- // Embeded Js Script -->
+    <script>
+    //alert("Hi");
+    // document.getElementById("maincontent").innerHTML = "Welcome to the javascript";
+    </script>
+</body>
+
+</html>
