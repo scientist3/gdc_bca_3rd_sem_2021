@@ -24,7 +24,7 @@
       <br>
       <!-- <label class="" for="number">Enter your number</label>
       <input class="form-control col-6" type="text" name="number"> -->
-      <input class="btn btn-primary col-2" type="submit" name="submit" value="Submit">
+      <input class="btn btn-warning col-2" type="submit" name="submit" value="Submit">
     </form>
     <?php
 
@@ -35,6 +35,7 @@
       //var_dump($number);
       echo "<br>";
       gen_alert_data(strrev($number));
+      exit;
       //print_r($_GET);
       while ($number) {
         $rem = $number % 10;
