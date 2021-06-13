@@ -1,3 +1,4 @@
+<h1>Hiiii</h1>
 <?php
 // Function declaration  
 function greeting()
@@ -53,3 +54,6 @@ addInt2(12, 45);
   <functionName>();
 
 */
+?>
+
+<h1>Bye</h1>
